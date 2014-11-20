@@ -49,7 +49,10 @@ Add Jquery to your layout.twig :
 
 Add the ressources to your layout.twig :
 ```html
-    {% javascripts '@LoamokSubformsMadeEasyBundle/Resources/public/js/dynamicSubforms.js' %}
+    {% stylesheets '@LoamokJQuerySliderBundle/Resources/Public/css/bjqs.css' %}
+        <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+    {% javascripts '@LoamokJQuerySliderBundle/Resources/Public/js/bjqs-1.3.min.js' %}
       <script type="text/javascript" src="{{ asset_url }}"></script>
     {% endjavascripts %}
 ```
