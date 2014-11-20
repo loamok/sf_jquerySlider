@@ -20,10 +20,5 @@
         }
     },
     "target-dir" : "Loamok/JQuerySliderBundle",
-    "repositories" : [{}],
-    "extra" : {
-    "branch-alias" : {
-            "dev-master" : "develop"
-        }
-    }
+    "repositories" : [{}]
 }
