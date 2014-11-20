@@ -1,0 +1,24 @@
+{
+    "name" : "loamok/jqueryslider",
+    "description" : "SF2 Bundle Allowing you to use jcobb/basic-jquery-slider",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Huby Franck",
+        "email" : "franck.huby@loamok.org"
+    }],
+    "keywords" : [
+        "Symfony", "JQuery", "slider", "Loamok"
+    ],
+    "license" : [
+        "LGPL V3"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Loamok\\JQuerySliderBundle" : ""
+        }
+    },
+    "target-dir" : "Loamok/JQuerySliderBundle",
+    "repositories" : [{}]
+}
